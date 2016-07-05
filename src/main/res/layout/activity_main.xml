@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+
+   <com.zhimei.customcircleprogressbar.widget.MyCircleProgressBar
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       custom:circleWidth="10dp"
+       custom:speed="20"
+       custom:firstColor="@color/colorAccent"
+       custom:icons="@mipmap/ic_launcher"
+       custom:grade="46"
+       custom:textSizes="100sp"
+       custom:radius="150dp"
+       custom:textColor="@color/colorPrimaryDark"
+       />
+
+
+</LinearLayout>
