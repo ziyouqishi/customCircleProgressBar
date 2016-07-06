@@ -142,7 +142,7 @@ public class MyCircleProgressBar extends View {
             mPaint.setPathEffect(effect);
         }
 
-        mLinearGradient1 = new LinearGradient(0, 0, 0, 500, new int[] {
+        mLinearGradient1 = new LinearGradient(0, 0, 0, 2*radius, new int[] {
                 firstColor, secondColor, thirdColor }, null,
                 Shader.TileMode.CLAMP);
 
@@ -299,6 +299,7 @@ public class MyCircleProgressBar extends View {
 
         textSize=(int)a.getDimension(R.styleable.CustomProgressBar_textSizes,150);
         textColor=a.getColor(R.styleable.CustomProgressBar_textColor,Color.RED);
+        a.recycle();
 
 
 
